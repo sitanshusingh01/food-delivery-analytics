@@ -72,7 +72,5 @@ Then open any `.sql` file from `sql queries/` and run it against the `food_deliv
 1. Open `dashboards/Food Delivery Dashboard.pbix` in Power BI Desktop
 2. In Power Query, update the file path to point to your `data/cleaned/` folder
 3. Click Refresh
-
----
-
+			
 Any issues? Email sitanshu2312res644@iitp.ac.in
