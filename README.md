@@ -1,7 +1,6 @@
 # Food Delivery Operations Analytics
 
 🌐 Live Website:  
-https://sitanshusingh01.github.io/food-delivery-analytics/
 
 A data analytics case study analyzing food delivery operations across 8 Indian cities.  
 I built this project to understand how platforms like Swiggy and Zomato work under the hood —  
