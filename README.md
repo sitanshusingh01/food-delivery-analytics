@@ -6,8 +6,6 @@ the customer behavior, delivery patterns, restaurant trends, and where things go
 
 **By Sitanshu Singh** | IIT Patna | sitanshu2312res644@iitp.ac.in
 
----
-
 ## What This Project Is About
 
 I started this as a simple SQL practice exercise and it kept growing. By the end I had:
@@ -19,8 +17,6 @@ I started this as a simple SQL practice exercise and it kept growing. By the end
 
 It's not perfect. There are things I'd do differently now. But it's the most complete  
 end-to-end analytics project I've built so far, and I learned a lot from it.
-
----
 
 ## The Dataset
 
@@ -39,8 +35,6 @@ Final tables:
 
 Cities covered: Mumbai, Delhi, Bangalore, Hyderabad, Pune, Chennai, Kolkata, Ahmedabad  
 Date range: January 2023 to December 2023
-
----
 
 ## Folder Structure
 
@@ -82,9 +76,6 @@ Food Delivery Analytics/
 ├── .gitignore
 └── README.md
 ```
-
----
-
 ## How to Run This Project
 
 ### 1. Clone the repo
@@ -124,8 +115,6 @@ If you want to run the SQL queries:
 Open `dashboards/Food Delivery Dashboard.pbix` in Power BI Desktop.  
 Connect it to your local database or the cleaned CSV files.
 
----
-
 ## Data Cleaning — What I Had to Fix
 
 The raw data had a bunch of issues. Here's what I actually dealt with:
@@ -140,8 +129,6 @@ The raw data had a bunch of issues. Here's what I actually dealt with:
 - **89 orders with unknown restaurant IDs** — matched them to the restaurants table on name + city.
 
 The full cleaning code is in `notebooks/01 data cleaning.ipynb`.
-
----
 
 ## EDA Key Findings
 
@@ -168,8 +155,6 @@ The full cleaning code is in `notebooks/01 data cleaning.ipynb`.
 - **New restaurants take about 3 months to build consistent order volume**
 - **Mid-tier restaurants (₹150–300) with 4.0 ratings outperform premium ones** in order volume
 
----
-
 ## SQL Analysis
 
 All queries are in the `sql queries/` folder. A few highlights:
@@ -194,8 +179,6 @@ ORDER BY late_pct DESC;
 Result: Mumbai (11.2%), Delhi (8.7%), Bangalore (7.4%) are the worst three.  
 Ahmedabad (4.2%) is the best — smaller city, shorter delivery distances.
 
----
-
 ## Power BI Dashboards
 
 Four dashboards in the `.pbix` file:
@@ -214,7 +197,6 @@ On-time vs. late breakdown, peak hour analysis, rider performance
 
 Screenshots in `dashboards/screenshots/`.
 
----
 
 ## Tech Stack
 
@@ -227,8 +209,6 @@ Screenshots in `dashboards/screenshots/`.
 | Version Control | Git, GitHub |
 | Deployment | GitHub Pages (website), Power BI Service (dashboards) |
 
----
-
 ## What I Learned
 
 A few things that actually surprised me during this project:
@@ -239,8 +219,6 @@ A few things that actually surprised me during this project:
 4. **Version control your data files** — I overwrote a cleaned dataset early on and lost two days of work
 5. **Communicating the finding matters as much as finding it** — the dashboard forced me to simplify, which helped me understand the results better
 
----
-
 ## Future Work
 
 Things I'd add if I had more time:
@@ -248,8 +226,6 @@ Things I'd add if I had more time:
 - Time series forecasting for order volume by city
 - Customer lifetime value modeling
 - RFM segmentation (Recency, Frequency, Monetary)
-
----
 
 ## About Me
 
@@ -267,7 +243,5 @@ Achievements: McKinsey Solve Assessment | Media & PR Coordinator, TEDx IIT Patna
 - LinkedIn: [linkedin.com/in/sitanshusingh](https://linkedin.com/in/sitanshusingh)
 - Email: sitanshu2312res644@iitp.ac.in
 - Phone: +91 8115926935
-
----
 
 *This is a self-initiated learning project built over roughly 3 months. Feedback welcome.*
