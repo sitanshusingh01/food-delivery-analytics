@@ -11,7 +11,6 @@ What started as a SQL practice exercise turned into a full case study: 50,000+ r
 **Sitanshu Singh** — B.S. CS & Data Analytics, IIT Patna  
 sitanshu2312res644@iitp.ac.in | [LinkedIn](https://linkedin.com/in/sitanshusingh) | [GitHub](https://github.com/sitanshusingh01)
 
----
 
 ## Why I Built This
 
@@ -21,7 +20,6 @@ I wanted to build something that showed that entire process. Not just "here's a 
 
 The food delivery domain is also genuinely interesting from an operations standpoint. There are real constraints — rider availability, traffic, peak hours, restaurant prep times — and they interact in non-obvious ways. When Mumbai has an 11% late delivery rate and Ahmedabad has a 4.2% rate, that's not random. There's a story there.
 
----
 
 ## What the Project Covers
 
@@ -35,7 +33,6 @@ The analysis is split across three domains:
 
 The portfolio website at the link above walks through all of this interactively — tabbed EDA findings, SQL queries with their result charts, a full operations dashboard with four Recharts visualizations, and dataset documentation with the cleaning notes.
 
----
 
 ## Screenshots
 
@@ -49,7 +46,6 @@ The portfolio website at the link above walks through all of this interactively 
 
 *Screenshots coming — add to `dashboards/screenshots/` after capturing from Power BI Desktop.*
 
----
 
 ## Tech Stack
 
@@ -84,16 +80,13 @@ The portfolio website at the link above walks through all of this interactively 
 
 The website is built with **TypeScript** throughout — every component, page, and utility is `.tsx` or `.ts`. This was intentional: I wanted the codebase to be typed, especially since the chart data structures get complex on the Insights page.
 
-| Tool | Version | What I Used It For |
-|---|---|---|
-| TypeScript | 5.5 | Type-safe development across all components and pages |
-| React | 18.3 | Component-based UI — 7 pages, each as a standalone component |
-| Vite | 5.4 | Build tool — fast dev server, optimized production bundle |
-| Tailwind CSS | 4.0 | Utility-first styling — warm orange primary, deep navy secondary |
-| Recharts | 2.12 | Four interactive charts (bar, line, pie, composed) |
-| Framer Motion | 11.9 | Stat counter animations on the home page |
-| Wouter | 3.3 | Lightweight client-side routing (7 pages) |
-| Lucide React | 0.445 | Icon set used throughout the UI |
+| Tool       | Version | What I Used It For                                                             |
+| ---------- | ------- | ------------------------------------------------------------------------------ |
+| HTML5      | Latest  | Structured all webpages and application layouts                                |
+| CSS3       | Latest  | Custom styling, responsive design, animations, and UI improvements             |
+| JavaScript | ES6+    | Added interactivity, dynamic functionality, DOM manipulation, and API handling |
+| TypeScript | 5.5     | Used for better type safety, cleaner code structure, and scalable development  |
+
 
 ### Infrastructure
 
@@ -102,7 +95,6 @@ The website is built with **TypeScript** throughout — every component, page, a
 | Git + GitHub | Version control and code hosting |
 | GitHub Pages | Hosting the portfolio website (main branch, root path) |
 
----
 
 ## Folder Structure
 
@@ -133,16 +125,7 @@ food-delivery-analytics/
 │   └── screenshots/                 # Dashboard screenshots
 │
 ├── website/                         # Portfolio site source code (TypeScript + React)
-│   ├── src/
-│   │   ├── pages/                   # 7 page components (Home, Dashboard, Insights, etc.)
-│   │   ├── components/              # Navbar and shared UI components
-│   │   ├── App.tsx                  # Router and layout
-│   │   ├── main.tsx                 # React entry point
-│   │   └── index.css                # Global theme and SQL syntax highlighting
-│   ├── index.html                   # HTML entry point
-│   ├── vite.config.js               # Vite config (base path set for GitHub Pages)
-│   ├── package.json
-│   └── tsconfig.json
+│  
 │
 ├── assets/                          # Built website CSS and JS (served by GitHub Pages)
 ├── index.html                       # Built website entry (served by GitHub Pages)
@@ -160,7 +143,6 @@ food-delivery-analytics/
 └── README.md
 ```
 
----
 
 ## Getting Started
 
@@ -224,7 +206,6 @@ npm run build
 # Copy everything from website/dist/ to the repo root, commit, and push
 ```
 
----
 
 ## Deployment (GitHub Pages)
 
@@ -242,7 +223,6 @@ The `.nojekyll` file at the root tells GitHub Pages not to run its Jekyll proces
 
 GitHub Pages configuration: **Source → main branch, / (root)**
 
----
 
 ## Data Cleaning — What the Raw Data Actually Looked Like
 
@@ -266,7 +246,6 @@ The Kaggle datasets weren't unusable, but they needed work. Some of this took lo
 
 All the cleaning code is in `notebooks/01 data cleaning.ipynb` with comments explaining each decision.
 
----
 
 ## Key Findings
 
@@ -293,7 +272,6 @@ All the cleaning code is in `notebooks/01 data cleaning.ipynb` with comments exp
 - Mid-tier restaurants (₹150–300 avg order) with a 4.0 rating consistently outperform premium restaurants (₹400+) with 4.4 ratings in order volume. Price sensitivity is high.
 - New restaurants need about 12 weeks to build consistent order volume. Early review count is the strongest predictor of whether they'll make it past that stage.
 
----
 
 ## Challenges
 
@@ -307,7 +285,6 @@ All the cleaning code is in `notebooks/01 data cleaning.ipynb` with comments exp
 
 **SQL window functions.** Writing the customer cohort analysis queries required understanding RANK() and LAG() properly. The Kaggle tutorials I'd done before didn't really prepare me for using them in practice on a dataset with this structure. I had to work through a few wrong approaches before the query made sense.
 
----
 
 ## Future Improvements
 
@@ -323,7 +300,6 @@ A few things I'd add with more time:
 
 **Automated data pipeline** — Right now the cleaning is a one-time notebook run. A proper pipeline using something like Prefect or even just scheduled Python scripts would make the project reproducible on new data.
 
----
 
 ## What I Learned
 
@@ -339,7 +315,6 @@ Prep time affecting customer ratings more than delivery time was the finding tha
 
 Documenting findings for a general audience is genuinely hard. The Power BI dashboards forced me to simplify, which helped me understand what was actually important vs. what was just interesting noise.
 
----
 
 ## About Me
 
