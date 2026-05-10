@@ -34,19 +34,6 @@ The analysis is split across three domains:
 The portfolio website at the link above walks through all of this interactively — tabbed EDA findings, SQL queries with their result charts, a full operations dashboard with four Recharts visualizations, and dataset documentation with the cleaning notes.
 
 
-## Screenshots
-
-> Dashboard page — four interactive charts from the Power BI analysis
-
-![Dashboard screenshot](dashboards/screenshots/dashboard.png)
-
-> Insights page — tabbed EDA findings with SQL query result visualizations
-
-![Insights screenshot](dashboards/screenshots/insights.png)
-
-*Screenshots coming — add to `dashboards/screenshots/` after capturing from Power BI Desktop.*
-
-
 ## Tech Stack
 
 ### Data Analysis
