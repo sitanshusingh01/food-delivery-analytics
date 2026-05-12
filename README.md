@@ -45,7 +45,7 @@ The portfolio website at the link above walks through all of this interactively 
 | Seaborn | 0.13.0 | Correlation heatmaps, distribution plots |
 | SQLAlchemy | 2.0.0 | Python-to-PostgreSQL connection |
 | psycopg2 | 2.9.9 | PostgreSQL driver |
-| Jupyter | 1.0.0 | Notebooks for step-by-step analysis |
+| Jupyter | 1.0.0 | Notebooks for step by step analysis |
 
 ### Database and SQL
 
@@ -310,8 +310,6 @@ CPI: 9.06/10
 Data Analytics Research Intern at IIT Bhilai (Jan–Apr 2026) — worked on structured data analysis and visualization pipelines.
 
 **Certifications:** IBM Data Analytics Professional Certificate · Deloitte Australia Data Analytics Job Simulation · Tata GenAI Powered Data Analytics  
-
-**Other:** McKinsey Solve Assessment · Media & PR Coordinator at TEDx IIT Patna · NSS University Coordinator
 
 If you have feedback on this project, or just want to talk about the analysis — feel free to reach out.
 
