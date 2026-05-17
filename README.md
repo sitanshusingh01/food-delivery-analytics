@@ -6,7 +6,7 @@ I started this project wanting to understand what actually happens behind the sc
 
 What started as a SQL practice exercise turned into a full case study: 50,000+ real order records, four Power BI dashboards, EDA across three domains (customers, delivery, restaurants), and a portfolio website documenting the findings. It took longer than I expected — especially the data cleaning part — but it's the most complete end-to-end analytics project I've done so far.
 
-**Sitanshu Singh** — B.S. CS & Data Analytics, IIT Patna  
+**Sitanshu Singh** — B.S. CS & Data Analytics, 
 sitanshu2312res644@iitp.ac.in | [LinkedIn](https://linkedin.com/in/sitanshusingh) | [GitHub](https://github.com/sitanshusingh01)
 
 
