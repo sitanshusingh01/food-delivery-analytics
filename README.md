@@ -1,6 +1,6 @@
 # Food Delivery Operations Analytics
 
-**Live website →** https://sitanshusingh01.github.io/food-delivery-analytics/
+
 
 I started this project wanting to understand what actually happens behind the scenes when you order food online. Not the user experience side — the operational side. Delivery times, cancellations, peak load, city differences, restaurant performance. The kind of stuff that an ops analyst at Swiggy or Zomato would actually care about.
 
