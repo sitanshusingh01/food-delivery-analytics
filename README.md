@@ -10,7 +10,7 @@ What started as a SQL practice exercise turned into a full case study: 50,000+ r
 sitanshu2312res644@iitp.ac.in | [LinkedIn](https://linkedin.com/in/sitanshusingh) | [GitHub](https://github.com/sitanshusingh01)
 
 
-## Why I Built This
+ Why I Built This
 
 There's a weird gap in most "data analytics portfolios" — they show you cleaned data, a few charts, and a conclusion. What they skip is everything that happened before: the messy raw files, the judgment calls you have to make when data is missing or inconsistent, the dead ends in analysis.
 
