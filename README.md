@@ -4,7 +4,7 @@
 
 I started this project wanting to understand what actually happens behind the scenes when you order food online. Not the user experience side — the operational side. Delivery times, cancellations, peak load, city differences, restaurant performance. The kind of stuff that an ops analyst at Swiggy or Zomato would actually care about.
 
-What started as a SQL practice exercise turned into a full case study: 50,000+ real order records, four Power BI dashboards, EDA across three domains (customers, delivery, restaurants), and a portfolio website documenting the findings. It took longer than I expected — especially the data cleaning part — but it's the most complete end-to-end analytics project I've done so far
+What started as a SQL practice exercise turned into a full case study: 50,000+ real order records, four Power BI dashboards, EDA across three domains (customers, delivery, restaurants), and a portfolio website documenting the findings. It took longer than I expected — especially the data cleaning part — but it's the most complete end-to-end analytics project I've done so far.
 
 **Sitanshu Singh** — B.S. CS & Data Analytics,IIT Patna   
 sitanshu2312res644@iitp.ac.in | [LinkedIn](https://linkedin.com/in/sitanshusingh) | [GitHub](https://github.com/sitanshusingh01)
